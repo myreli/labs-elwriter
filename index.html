@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ElWriter</title>
+    <meta charset="utf-8" /> 
+    <script src="editor.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="buttons">
+        <button class="btn btn-menu" id="new">New </button>
+        <button class="btn btn-menu" id="open">Open </button>
+        <button class="btn btn-menu" id="save">Save </button>
+        <input type="checkbox" id="dark-mode" /> darkest dark 
+    </div>
+
+    <main>
+        <div id="heading" contenteditable="true" data-text="Digite o título..."></div>
+        <div id="editor" contenteditable="true" data-text="Digite seu conteúdo aqui..."></div>
+    </main>
+    
+    <div class="info">
+        <label>File: </label>
+        <span id="title"></span>
+        <label>Mode: </label>
+        <span id="mode"></span>
+        <label>Words: </label>
+        <span id="words"></span>
+        <label>Time: </label>
+        <span id="time"></span>
+    </div>
+
+</body>
+
+</html>

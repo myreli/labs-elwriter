@@ -1,0 +1,19 @@
+{
+  "name": "elwriter",
+  "version": "1.0.0",
+  "description": "experimenting with electron ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "writer",
+    "editor",
+    "electron"
+  ],
+  "author": "myreli",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.5"
+  }
+}

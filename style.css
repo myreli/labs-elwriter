@@ -1,0 +1,68 @@
+[contentEditable=true]:empty:not(:focus):before{
+  content:attr(data-text)
+}
+
+[contenteditable]:focus {
+  outline: 0px solid transparent;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+body.dark-mode {
+  background-color: #262626;
+  color: #eee;
+}
+
+main {
+  padding: 25px;
+  top: 50px;
+  bottom: 24px;
+}
+
+button {
+  margin: 0;
+}
+
+#heading {
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+#editor {
+  padding: 5px;
+  left: 0;
+  right: 0;
+  bottom: inherit;
+}
+
+.info {
+  font-family: monospace;
+  white-space: nowrap;
+  position: absolute;
+  bottom: 0;
+  background: #eee;
+  color: #262626;
+  padding: 2px;
+  height: 20px;
+  left: 0;
+  right: 0;
+}
+
+.info label {
+  font-weight: bold;
+}
+
+.buttons {
+  padding: 2px;
+  height: 25px;
+}
+
+.btn .btn-menu {
+  border-color: cadetblue;
+  
+}
